@@ -500,7 +500,7 @@ Example: http://192.168.0.101:4042
 	[self.beaconManager startMonitoringForRegion:region];
 
 	// This will get the initial state faster.
-	[self.beaconManager requestStateForRegion:region];
+	//[self.beaconManager requestStateForRegion:region]; -removed to enable working on iOS9
 }
 
 /**
